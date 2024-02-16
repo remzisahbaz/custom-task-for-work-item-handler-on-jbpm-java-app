@@ -12,8 +12,6 @@ public class CustomWorkItemHandler implements WorkItemHandler {
         workItemManager.abortWorkItem(workItem.getId());
     }
 
-
-
     @Override
     public void abortWorkItem(WorkItem workItem, WorkItemManager workItemManager) {
         System.out.println("******************************************CustomWorkItemHandler****************************************");
