@@ -20,7 +20,7 @@ public class CustomWorkItemHandler implements WorkItemHandler {
         parameters.entrySet().forEach(System.out::println);
 
         Map<String, Object> resultMap = new HashMap<String, Object>();
-        resultMap.put("Result", "Executed CustomWIH successfully by remzisahbaz");
+        resultMap.put("Result", "Executed CustomWIH successfully by remzisahbaz ");
         workItemManager.completeWorkItem(workItem.getId(), resultMap);
     }
 }
